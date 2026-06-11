@@ -53,7 +53,7 @@ The next question to ask your boss is what the current solution looks like(if an
 Boss's response: district housing prices are currently estimated manually by experts: a team gathers up-to-date information about a district, and when they cannot get the median housing price, they estimate it using complex rules.
 ## Clarification 
 But Josue, what makes this a machine learning problem ?
-1. Complex set of ruls in the boss's reponse he said that district hosuing prices are currently estimated manually by experts. 
+1. Complex set of rules in the boss's reponse he said that district hosuing prices are currently estimated manually by experts. 
 
 2. No known algorithm right ? I mean this rule comes from the complex rules thing but if you have to invent complex set of rules proalby no known algorithms to do it .
 
