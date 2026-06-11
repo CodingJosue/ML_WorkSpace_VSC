@@ -52,8 +52,8 @@ The next question to ask your boss is what the current solution looks like(if an
 
 Boss's response: district housing prices are currently estimated manually by experts: a team gathers up-to-date information about a district, and when they cannot get the median housing price, they estimate it using complex rules.
 ## Clarification 
-But Josue, what makes this a machine learning problem ?
-1. Complex set of ruls in the boss's reponse he said that district hosuing prices are currently estimated manually by experts. 
+But Josue, what makes this a machine learning problem?
+1. Complex set of rules in the boss's response, he said that district hosuing prices are currently estimated manually by experts. 
 
 2. No known algorithm right ? I mean this rule comes from the complex rules thing but if you have to invent complex set of rules proalby no known algorithms to do it .
 
@@ -62,19 +62,19 @@ But Josue, what makes this a machine learning problem ?
 
 - Task (T): Predicting the median housing price for a given district
 
-- The Experience(E): The California census data containing thousands of districts with their attributes (population, income, etc.) and their actual prices
+- The Experience(E): The California census data contains thousands of districts with their attributes (population, income, etc.) and their actual prices
 
 -  The Performance Measure(P): The RMSE (Root Mean Square Error), which tells us exactly how many dollars off our predictions are from the real expert-verified prices
 
 ![Alt text](image-1.png)
 
-This(their current approach) is costly and time-consuming. That's why the ythink they need to train a model to predict a district's median housing price, given other data about that district. 
+This(their current approach) is costly and time-consuming. That's why they think they need to train a model to predict a district's median housing price, given other data about that district. 
 
 
 ## Pipelines 
-A sequence of data processing components is called data pipeline. Pipelijnes are very common in machine  since there are a lot to manipulate ad many data transformations to apply.
+A sequence of data processing components is called data pipeline. Pipelines are very common in machine learning  since there are a lot to manipulate and many data transformations to apply.
 
-Components of a data pipeline often run assyncroously. Each components pulls in a alrge amount of data then it spits out the result in another data store. Then, some time later the next component pulls in this data . It's literally a pipeline feeding data gets an output and feet that output to some other component. Each component is self-contained(independent island, like if you have a Java class that does exactly one thing and does overflow with another class ). 
+Components of a data pipeline often run asynchronously. Each component pulls in a large amount of data then it spits out the result in another data store. Then, some time later, the next component pulls in this data. It's literally a pipeline feeding data that gets an output and feet that output to some other component. Each component is self-contained(independent island, like if you have a Java class that does exactly one thing and does not overflow with another class ). 
 Note that in data pipelining a broken compoent may go unnoticed if proper monitoring is not implimented.
 
 
@@ -82,7 +82,7 @@ Note that in data pipelining a broken compoent may go unnoticed if proper monito
 
 With all this information, you should be ready to start designing the system
 
-1. What kind of trainning supervision? 
+1. What kind of training supervision? 
     
 
     * Supervised learning: Yes because our goal is to predict a price we have trainning instances
